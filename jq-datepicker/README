@@ -1,3 +1,10 @@
 test / demo of jQuery Datepicker lib:
  - http://jqueryui.com/demos/datepicker/
  - depends on: UI Core
+
+CDN of jQuery libs and CSS:
+ - http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js
+ - http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.js
+ - http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/themes/base/jquery-ui.css
+
+
