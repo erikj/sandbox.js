@@ -3,15 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<title>jQuery UI Datepicker - Default functionality</title>
-	<link rel="stylesheet" href="jquery.ui.all.css">
-	<script src="jquery-1.5.1.js"></script>
-	<script src="jquery.ui.core.js"></script>
-	<script src="jquery.ui.widget.js"></script>
-	<script src="jquery.ui.datepicker.js"></script>
-	<link rel="stylesheet" href="demos.css">
+	<link rel="stylesheet" href="jquery/demos.css">
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/themes/base/jquery-ui.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.js"></script>
+
 	<script>
 	$(function() {
-		$( "#datepicker" ).datepicker();
+		$( "#start_date" ).datepicker();
+		$( "#end_date" ).datepicker();
 	});
 	</script>
 </head>
@@ -19,7 +19,10 @@
 
 <div class="demo">
 
-<p>Date: <input type="text" id="datepicker"></p>
+<p>
+	Start Date: <input type="text" id="start_date"> | 
+	End Date:   <input type="text" id="end_date">
+</p>
 
 </div><!-- End demo -->
 
